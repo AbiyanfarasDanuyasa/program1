@@ -4,11 +4,11 @@
 
 ## Download GIT
 membuka website resmi git (git-scm.com), lalu diinstal sesuai laptop yang di gunakan
-[gambar1](gambar/faras1.png)
+![gambar1](gambar/faras1.png)
 
 ## membuka GIT bash
 setelah itu membuka git bash
-[gambar2](gambar/faras2.png)
+![gambar2](gambar/faras2.png)
 
 ## membuat global config
 pada saat pertama kali menggunakan git, kita perlu melakukan konfigurasi user.name dan user.email., konfigurasi ini bisa dilakukan untuk global repository atau induvidual repository. bila belum di lakukan konfigurasi, akan mengakibatkan terjadinya kegagalan saat menjalankan perintah git commit
