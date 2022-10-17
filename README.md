@@ -1,6 +1,6 @@
 ## program1 
 
-# Tugas Bahasa Pemograman
+## Tugas Bahasa Pemograman
 
 ## Download GIT
 membuka website resmi git (git-scm.com), lalu diinstal sesuai laptop yang di gunakan
@@ -25,36 +25,36 @@ buka direktory aktif, misal: c:\program1(buka menggunakan windows explorer). kli
 $ mkdir program1
 $ cd program1
 ```
- sehingga terbentuk satu direktory baru dibawahnya, selanjutnya masuk kedalam direktory tersebut dengan perintah cd (change directory)
- ![gambar4](gambar/faras4.png)
+sehingga terbentuk satu direktory baru dibawahnya, selanjutnya masuk kedalam direktory tersebut dengan perintah cd (change directory)
+![gambar4](gambar/faras4.png)
 
- ## Membuat Repository local
- jalankan perintah git init, untuk membuat repository local.
- ```
- $ git init
- ```
- Repository baru berhasil di instalisasi , dengan terbentuknya suat hidden dengan nama. git pada direktory tersebut, semua perubahan pada working directory akan disimpan
- ![gambar5](gambar/faras5.png)
+## Membuat Repository local
+jalankan perintah git init, untuk membuat repository local.
+```
+$ git init
+```
+Repository baru berhasil di instalisasi , dengan terbentuknya suat hidden dengan nama. git pada direktory tersebut, semua perubahan pada working directory akan disimpan
+![gambar5](gambar/faras5.png)
 
- ## Menambahkan File baru pada Repository
- untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktory aktif(repository)
- ```
- $ echo "#program1" >> README.md
- ```
- ![gambar6](gambar/faras6.png)
+## Menambahkan File baru pada Repository
+untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktory aktif(repository)
+```
+$ echo "#program1" >> README.md
+```
+![gambar6](gambar/faras6.png)
 
- umtuk menambahkan file yang baru saja dibuat gunakan perintah git add
- ```
- $ git add README.md
- ```
- ![gambar7](gambar/faras7.png)
+untuk menambahkan file yang baru saja dibuat gunakan perintah git add
+```
+$ git add README.md
+```
+![gambar7](gambar/faras7.png)
 
- ## Menyimpan Perubahan ke database(commit)
- umtuk menyiapkan perubahan yang ada kedalam database repository loacl, gunakan perintah
- ```
- $ git commit -m "simpan1"
- ```
- ![gambar8](gambar/faras8.png)
+## Menyimpan Perubahan ke database(commit)
+untuk menyiapkan perubahan yang ada kedalam database repository loacl, gunakan perintah
+```
+$ git commit -m "simpan1"
+```
+![gambar8](gambar/faras8.png)
 
 ## Membuat Repository Server
 Server Repository yang digunakan http://github.com anda harus membuat akun terlebih dahulu pada github, klik tombol start a project, atau dari menu (icon+) klik new repository
@@ -87,4 +87,4 @@ clone repoasitory adalah meng-copy repository server dan secara otomatis membuat
 ```
 git clone [url]
 ```
-![gambar13]
+![gambar13](gambar/faras13.png)
